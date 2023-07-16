@@ -2,7 +2,8 @@
 
 import java.util.Scanner;
 
-public class SmallCalculator {
+public class SmallCalculator 
+{
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		SmallCalculator calculator = new SmallCalculator();
@@ -60,5 +61,4 @@ public class SmallCalculator {
 	static double divide(double a, double b) {
 		return a / b;
 	}
-
 }
